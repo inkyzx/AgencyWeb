@@ -1,0 +1,48 @@
+/* Global, é o arquivo css feito com intenção de configurar tudo aquilo que vamos utilizar em todas as paginas do projeto. */
+
+/* Reset css */
+* {
+    border: 0; /* Borda do Elemento */
+    margin: 0; /* Distancia de Margem */
+    padding: 0; /* Espaçamento Interno */
+    box-sizing: border-box; /* Respeitar Largura e Altura de acordo o tamanho total*/
+}
+
+/* O reset tem a função de zerar os estilos que vem por padrão pelos navegadores */
+
+/* Variaveis CSS */
+:root {
+
+    /* Cores */
+    --color-blue: #1090CB; /* Variavel de Cor */  
+    --color-blue-10: #1090CB1a; /* Variavel de Cor */ 
+    --color-white: #FFFFFF; /* Variavel de Cor */ 
+    --color-black: #000000; /* Variavel de Cor */ 
+    --color-gray: #5C5C5C; /* Variavel de Cor */ 
+    --color-gray2: #969696; /* Variavel de Cor */ 
+    --color-gray3: #C4C4C4; /* Variavel de Cor */ 
+
+    /* Fontes */
+    /* Size */
+    --font-size-h1: 35px; /* Variavel de Tamanho da fonte */
+    --font-size-h2: 30px; /* Variavel de Tamanho da fonte */
+    --font-size-h3: 25px; /* Variavel de Tamanho da fonte */
+    --font-size-h4: 18px; /* Variavel de Tamanho da fonte */
+    --font-size-body: 16px; /* Variavel de Tamanho da fonte */
+    --font-size-button: 16px; /* Variavel de Tamanho da fonte */
+    --font-size-caption: 14px; /* Variavel de Tamanho da fonte */
+
+    /* weight */
+    --font-weigth-h1: 600px; /* Variavel de Espessura da fonte */
+    --font-weigth-h2: 600px; /* Variavel de Espessura da fonte */
+    --font-weigth-h3: 600px; /* Variavel de Espessura da fonte */
+    --font-weigth-h4: 500px; /* Variavel de Espessura da fonte */
+    --font-weigth-body: 400px; /* Variavel de Espessura da fonte */
+    --font-weigth-button: 700px; /* Variavel de Espessura da fonte */
+    --font-weigth-caption: 400px; /* Variavel de Espessura da fonte */
+
+    /* Family */
+    --font-family-primary: "Poppins", sans-serif; /* Familia da Fonte */
+
+}
+
