@@ -1,2 +1,42 @@
 @import url("./global.css");
 
+header {
+    display: flex; /* Para que os items do grupo fiquem lado a lado*/
+    justify-content: space-between; /* Colocar nas Extremidades */
+    align-items: center; /* Centraliza na vertical */
+    padding: 30px; /* Espaçamento Interno */
+    border-bottom: 0.7px solid var(--color-gray-3); /* Borda Inferior */
+}
+
+.container-nav-header {
+    display: flex;
+    align-items: center;
+    gap: 70px; /* Espaçamento dentre elementos flex */
+}
+
+.navigation-header ul {
+    display: flex;
+    gap: 40px;
+    list-style: none; /* Tira o Estilo padrão das listas */
+}
+
+.navigation-header ul li a {
+    text-decoration: none; /* Estilização do Texto */
+    color: var(--color-black);
+    font-family: var(--font-family-primary);
+}
+
+.navigation-header ul li .menu-active {
+   color: var(--color-blue); /* Altera a Cor da Fonte */
+}
+
+.btn-header {
+    color: var(--color-white);
+    text-decoration: none; /* Tira a decoração do Texto */
+    font-family: var(--font-family-primary); /* Altera a fonte */
+    font-weight: var(--font-weigth-button); /* Expessura da Fonte */
+    background-color: var(--color-blue);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
