@@ -1,5 +1,7 @@
 @import url("./global.css");
 
+/* ----------------- HEADER ----------- */
+
 header {
     display: flex; /* Para que os items do grupo fiquem lado a lado*/
     justify-content: space-between; /* Colocar nas Extremidades */
@@ -39,4 +41,79 @@ header {
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+/* ----------- MAIN ----------- */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 50px;
+    background-color: var(--color-blue-10);
+    padding: 50px 0;
+}
+
+.main-content {
+    display: flex; /* Para habilitar o gap */
+    flex-direction: column; /* Deixar em Coluna */
+    gap: 30px; /* Espaçamento dentre os elementos */
+    width: 520px; /* Largura Total */
+}
+
+.main-content h1 {
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weigth-h1);
+    font-family: var(--font-family-primary);
+}
+
+.main-content h1 span {
+    color: var(--color-blue);
+}
+
+.main-content p {
+    color: var(--color-gray);
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weigth-body);
+    font-size: var(--font-size-body);
+    line-height: 30px;
+}
+
+.container-cta {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 8px 55px;
+    border-radius: 10px;
+    font-weight: var(--font-weigth-button);
+    text-decoration: none;
+    font-family: var(--font-family-primary);
+}
+
+.btn-primary {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    transition: 0.3s;
+}
+
+
+.btn-primary:hover {
+    background-color: #005e89;
+}
+
+.btn-secondary{
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #e6e6e6;
+}
+
+
+
+
 
